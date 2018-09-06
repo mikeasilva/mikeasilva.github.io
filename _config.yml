@@ -79,7 +79,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Michael Silva"
+  name             : ""
   avatar           : "profile.png"
   bio              : "Wrangler of data. Developer of websites/apps. Budding data scientist."
   location         : "Rochester, New York"
