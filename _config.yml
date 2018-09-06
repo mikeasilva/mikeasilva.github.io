@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mike Silva"
 title_separator          : "-"
 name                     : &name "Mike Silva"
-description              : &description "personal description"
+description              : &description "Wrangler of data. Developer of websites/apps. Budding data scientist."
 url                      : https://mikeasilva.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mikeasilva/mikeasilva.github.io"
@@ -79,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Michael Silva"
   avatar           : "profile.png"
   bio              : "Wrangler of data. Developer of websites/apps. Budding data scientist."
-  location         : "Rochester, NY"
-  employer         : "https://www.cgr.org/"
+  location         : "Rochester, New York"
+  employer         : #"https://www.cgr.org/"
   googlescholar    : 
   email            :
   uri              : "https://buddingdatascientist.wordpress.com/"
@@ -98,7 +98,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "http://www.linkedin.com/in/michaelsilva/"
+  linkedin         : "michaelsilva/"
   orcid            : "https://orcid.org/0000-0001-7344-660X"
   pinterest        :
   soundcloud       :
