@@ -29,7 +29,7 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* type scale */
@@ -53,7 +53,7 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #efedea;
+$body-color                 : #7c705e;
 $background-color           : #efedea;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
@@ -61,6 +61,8 @@ $text-color                 : #7c705e;
 $border-color               : $lighter-gray;
 
 $primary-color              : #bd5532;
+$orange                     : #bd5532;
+$blue                       : #6f9d9f;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -90,11 +92,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#bd5532, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $orange;
+$link-color-hover           : $orange;
+$link-color-visited         : $orange;
+$masthead-link-color        : $blue;
+$masthead-link-color-hover  : $orange;
 
 
 /*
