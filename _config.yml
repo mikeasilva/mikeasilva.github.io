@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mike Silva"
+title                    : "Michael A Silva"
 title_separator          : "-"
-name                     : &name "Mike Silva"
+name                     : &name "Michael A Silva"
 description              : &description "Wrangler of data. Developer of websites/apps. Budding data scientist."
 url                      : https://mikeasilva.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
