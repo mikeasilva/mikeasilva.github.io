@@ -26,7 +26,7 @@ Work experience
   * Launched Synergy - Internal proposal, project and report tracker. Search function saved proposal development time. Replaced defunct Access database.
   * Developed & Launched Govistics - Government spending visualizer. Recipient of multiple awards.
   * Reimplemented CGR's Data Warehouse - Moved to MySQL platform enabling Community Profiles to become a profitable product line.
-  * See more at (https://www.cgr.org/about-cgr/people/key-personnel/)[https://www.cgr.org/about-cgr/people/key-personnel/#8]
+  * See more at [https://www.cgr.org/about-cgr/people/key-personnel/](https://www.cgr.org/about-cgr/people/key-personnel/#8)
 * Economist at the U.S. Bureau of Labor Statistics (May 2006 to Oct 2008)
   * Gathered industrial and international price data to compute inflation indices.
   * Interacted with top level business leaders professionally to gain voluntary cooperation in the programs.
