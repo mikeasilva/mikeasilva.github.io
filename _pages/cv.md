@@ -9,14 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 ======
 * Honors B.S. in Economics, University of Utah 
     * Date: 2005
     * Senior Thesis: An empirical study of American time use among personal care, work, and leisure activites 
 * M.S. in Data Science, CUNY School of Professional Studies, 2020 (expected)
+    * Course work available at [https://github.com/mikeasilva/CUNY-SPS](https://github.com/mikeasilva/CUNY-SPS)
 
-Work experience
+## Work Experience
 ======
 * Data Analyst at CGR (Nov 2008 to Present)
   * Co-Founded CGR's Data Science Team - Strategic team with the goal to deepen firm's data science capabilities.
