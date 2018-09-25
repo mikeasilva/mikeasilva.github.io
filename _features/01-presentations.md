@@ -1,6 +1,6 @@
 ---
-id: presentations
-name: presentations
+id: Presentations
+name: Presentations
 heading: Presentations
 image: "https://mikeasilva.github.io/assets/img/presentations.jpg"
 ---
