@@ -3,7 +3,6 @@ title: "CGR Reports"
 collection: publications
 permalink: /publication/cgr-reports
 excerpt: 'Reports written while working at CGR.'
-date: Various
 venue: 'Online'
 paperurl: 'http://reports.cgr.org/list/by-author/michael-silva'
 ---
