@@ -2,7 +2,7 @@ header {
   display: block;
   width: 100%;
   text-align: center;
-  background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+  background: url('img/header.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -10,16 +10,26 @@ header {
 
   .headline { padding: 120px 0; }
 
+  @import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans');
+
+  .orange{color:#bd5532;}
+  .blue{color:#6f9d9f;}
+
+  * {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  }
+
+  h1,h2,h3,h4,h4{
+    font-family: "Bitter",Georgia,Times,serif;
+  }
+
   h1 {
+    color: #bd5532;
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
   }
 
   h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
   }
 
   @media(max-width:1200px) {
