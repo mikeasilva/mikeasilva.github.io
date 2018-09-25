@@ -11,6 +11,11 @@ main {
     &.pull-right {  margin-left: 40px;  }
   }
 
+  h1,h2,h3,h4,h4{
+    font-family: "Bitter",Georgia,Times,serif;
+    color: #bd5532;
+  }
+
   h2 {
     font-size: 50px;
     span { @extend .text-muted; }
