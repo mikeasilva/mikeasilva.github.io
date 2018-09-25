@@ -21,16 +21,17 @@ header {
 
   h1,h2,h3,h4,h4{
     font-family: "Bitter",Georgia,Times,serif;
-    text-shadow: 0 0 3px #FFFFFF;
   }
 
   h1 {
     color: #bd5532;
     font-size: 130px;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
   }
 
   h2 {
     font-size: 77px;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
   }
 
   @media(max-width:1200px) {
