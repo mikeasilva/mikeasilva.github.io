@@ -1,8 +1,8 @@
 ---
-id: about
-name: About
-heading: This First Heading
-subheading: Will Catch Your Eye
+id: presentations
+name: presentations
+heading: Presentations
+subheading: &nbsp;
 image: "http://placehold.it/500x500"
 ---
 
