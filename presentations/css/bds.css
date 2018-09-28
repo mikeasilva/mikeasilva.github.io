@@ -13,6 +13,22 @@ body .red {
     color: #bd5532;
 }
 
+body .true_blue{
+    color: blue;
+}
+
+body .true_green{
+    color: green;
+}
+
+code {
+    color: black;
+}
+
+.reveal table td.center {
+    text-align: center;
+}
+
 .reveal {
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-size: 40px;
