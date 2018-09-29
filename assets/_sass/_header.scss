@@ -26,23 +26,23 @@ header {
   h1 {
     color: #bd5532;
     font-size: 130px;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.5);
     text-shadow:
         3px 3px 0 #954327,
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+        -1px -1px 0 rgba(255,255,255,0.5),
+        1px -1px 0 rgba(255,255,255,0.5),
+        -1px 1px 0 rgba(255,255,255,0.5),
+        1px 1px 0 rgba(255,255,255,0.5);
   }
 
   h2 {
     font-size: 77px;
     -webkit-text-stroke: 1px white;
     text-shadow:
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+        -1px -1px 0 rgba(255,255,255,0.5),
+        1px -1px 0 rgba(255,255,255,0.5),
+        -1px 1px 0 rgba(255,255,255,0.5),
+        1px 1px 0 rgba(255,255,255,0.5);
   }
 
   @media(max-width:1200px) {
