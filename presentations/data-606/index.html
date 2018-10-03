@@ -57,11 +57,11 @@ mu &lt;- mean(heights)
 sigma &lt;- sd(heights)
 
 <span class="true_blue">for</span>(n_sigma <span class="true_blue">in 1:3</span>){
-  <span class="true_green"># Return a Boolean vector</span>
+  <span class="true_green"># Observation is within n_sigma standard deviations</span>
   boolean_vector &lt;- heights &lt; (mu + n_sigma * sigma) & heights &gt; (mu + -n_sigma * sigma)
   <span class="true_green"># Count the TRUEs</span>
   n_true &lt;- length(boolean_vector[boolean_vector == <span class="true_blue">TRUE</span>])
-  <span class="true_green"># Share TRUE</span>
+  <span class="true_green"># What Share of the Total are TRUE</span>
   print(n_true / length(heights))
 }</code>
                 </pre>
@@ -100,6 +100,10 @@ sigma &lt;- sd(heights)
                     <h2>Answer</h2>
                     <p><img src="../img/data-606-q-q-plot.png" align="left" style="margin-right:10px;"/>Yes, the data appear to be normally distributed.  The dots on the Q-Q plot are more or less on the line.</p>
                 </section>
+            </section>
+            <section>
+                <h2>Presentation Materials</h2>
+                <a href="https://mikeasilva.github.io/presentations/data-606/">https://mikeasilva.github.io/presentations/data-606/</a>
             </section>
         </div>
     </div>
