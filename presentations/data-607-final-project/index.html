@@ -1,0 +1,105 @@
+<html>
+<title>CUNY DATA 607 Final Project</title>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet"/>
+	<link rel="stylesheet" href="../css/reveal.css"/>
+	<link rel="stylesheet" href="../css/bds.css"/>
+</head>
+<body class="bds">
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>Building a Home Price Model</h1>
+				<!--<p><a href="https://mikeasilva.github.io/presentations/data-607-final-presentation/" style="font-size:smaller; padding-top:20px;">https://mikeasilva.github.io/presentations/data-607-final-presentation/</a></p>-->
+			</section>
+
+			<section data-background="House_dollar.jpg">
+				<div class="paper">
+					<h2>Housing is Unaffordable...</h2>
+					<blockquote>"Housing affordability has now reached a <b class="red">10-year low</b> in the second quarter of 2018."</blockquote>
+					<p style="padding-bottom:30px;"><i class="smaller">National Association of Home Builders/Wells Fargo Housing Opportunity Index</i></p>
+				</div>
+			</section>
+
+			<section data-background="median_sale_price.png" >
+				&nbsp;
+			</section>
+
+			<section data-background="hands_on.jpg">
+				<div class="paper fragment" data-fragment-index="0">
+					<h2>Interactive</h2>
+					<h2>Educational</h2>
+					<h2>Fun</h2>
+				</div>
+			</section>
+
+			<section>
+				<section>
+					<h1 style="font-size:3em;">Step 1: Data Aquisition</h1>
+				</section>
+
+				<section data-background="corn_hill2.jpg">
+					<div class="paper">
+						<h2>Housing Attributes</h2>
+						<h4>NYS GIS Clearinghouse</h4>
+						<p style="padding-bottom:30px;">Shapefile with 2017 data</p>
+					</div>
+				</section>
+
+				<section data-background="youtube.png">
+					<div class="paper fragment" data-fragment-index="0">
+						<h2>Home Prices</h2>
+						<h4>Monroe County Real Property Portal</h4>
+						<p style="padding-bottom:30px;">Scrapped with async web scrapper</p>
+					</div>
+				</section>
+
+				<section data-background="roadblock.jpg">
+					<div style="float:left; width:65%;">&nbsp;</div>
+					<div style="float:left; width:35%;">
+						<h2>Server</h2>
+						<div class="white">
+							<p>Changed policies</p>
+							<p>Web scrapper did not work</p>
+							<p>After proposal in</p>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1 style="font-size:3em;">Step 2: Model Building</h1>
+				</section>
+				<section data-background="forest.jpg">
+					<div class="paper">
+						<h2>Random Forest</h2>
+						<ul>
+							<li>Living Space (sq. feet)</li>
+							<li>Size of Plot (acres)</li>
+							<li>Year Built</li>
+							<li>Number of Full Bathrooms</li>
+							<li>Building Description</li>
+						</ul><br/>&nbsp;
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1 style="font-size:3em;">Step 3: Evaluation</h1>
+				</section>
+				<section>
+					<h2>Shiny App</h2>
+					<h4>https://mikesilva.shinyapps.io/Rochester-Housing-Sale-Price/</h4>
+				</section>
+			</section>
+
+		</div>
+	</div>
+	<script src="../js/reveal.js"></script>
+	<script>
+	Reveal.initialize();
+</script>
+</body>
+</html>
